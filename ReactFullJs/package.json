@@ -1,0 +1,30 @@
+{
+  "name": "reactfulljs",
+  "version": "0.1.0",
+  "description": "React learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev" : "webpack -wd"
+  },
+  "author": "Sachin Narasimhan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.14.1",
+    "eslint-plugin-react": "^6.9.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^1.14.0"
+  }
+}
